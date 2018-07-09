@@ -10,5 +10,7 @@ class DemoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_demo)
         pager.adapter = MyPagerAdapter(this)
+        pager.offscreenPageLimit = 2
+        pager.setPageTransformer(true, VerticalParallaxPageTranformer())
     }
 }

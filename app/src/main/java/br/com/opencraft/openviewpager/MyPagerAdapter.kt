@@ -31,7 +31,7 @@ class MyPagerAdapter(val context: Context) : PagerAdapter() {
     }
 
     override fun getCount(): Int {
-        return 3
+        return 5
     }
 
     override fun destroyItem(container: ViewGroup, position: Int, obj: Any) {

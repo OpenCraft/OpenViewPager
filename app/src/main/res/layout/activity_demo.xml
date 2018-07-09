@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         android:clipToPadding="false"
         android:paddingBottom="40dp"
-        android:paddingTop="40dp"
-        app:swipe_orientation="vertical" />
+        app:swipe_orientation="vertical"
+        />
 
 </android.support.constraint.ConstraintLayout>
